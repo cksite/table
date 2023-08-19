@@ -8,10 +8,10 @@ function get(){
     var text = " ";
     for(let j=1;j<=y;j++)
    {
-        text+="<br><br>Table of "+y+" is <br><br>"
+        text+="<br><br>Table of "+j+" is <br><br>"
         for(let i=1;i<=10;i++)
         {
-            text+= + y +" X "+i+" = " + y*i + "<br>"
+            text+= + j +" X "+i+" = " + j*i + "<br>"
         }
    }
 
